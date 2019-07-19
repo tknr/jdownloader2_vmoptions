@@ -1,0 +1,3 @@
+-Xms256m
+-Xmx256m
+-Dsun.java2d.d3d=false
