@@ -1,0 +1,2 @@
+-Xms64m
+-Dsun.java2d.d3d=false
