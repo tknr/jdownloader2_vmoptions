@@ -1,3 +1,5 @@
 -Xms512m
 -Xmx512m
 -Dsun.java2d.d3d=false
+-XX:+UseSerialGC
+-XX:ParallelGCThreads=1

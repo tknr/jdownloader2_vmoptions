@@ -1,3 +1,5 @@
 -Xms1024m
 -Xmx1024m
 -Dsun.java2d.d3d=false
+-XX:+UseSerialGC
+-XX:ParallelGCThreads=1
