@@ -1,6 +1,2 @@
 -Xms64m
 -Xmx64m
--Dsun.java2d.d3d=false
--XX:+UseSerialGC
--XX:ParallelGCThreads=1
--XX:CICompilerCount=2
