@@ -16,7 +16,7 @@ if [ ! -f ${SETTING}.vmoptions ]; then
     exit 1
 fi 
 
-rm ../JDownloader2.vmoptions || exit 1
-#rm ../JDownloader2Update.vmoptions || exit 1
+rm ../JDownloader2.vmoptions
+rm ../JDownloader2Update.vmoptions
 ln -s `pwd`/${SETTING}.vmoptions ../JDownloader2.vmoptions || exit 1
-#ln -s `pwd`/${SETTING}.vmoptions ../JDownloader2Update.vmoptions || exit 1
+ln -s `pwd`/${SETTING}.vmoptions ../JDownloader2Update.vmoptions || exit 1
