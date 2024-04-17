@@ -1,2 +1,1 @@
--Xmx512m
--Dsun.java2d.d3d=false
+ -Xmx512m
